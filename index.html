@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>display e position</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="box fixed">
+    Aviso fixo: aviso.
+  </header>
+
+  <main>
+
+    <h1>Exemplos de <code>display</code> e <code>position</code></h1>
+
+    <section>
+      <h2>Menu com Display Inline</h2>
+      <nav>
+        <a class="box inline" href="#">Início</a>
+        <a class="box inline" href="#">Serviços</a>
+        <a class="box inline" href="#">Contato</a>
+      </nav>
+    </section>
+
+    <section>
+      <h2>Cards com Display Block</h2>
+      <div class="box block">Card 1: Informações do curso</div>
+      <div class="box block">Card 2: Resultados recentes</div>
+    </section>
+
+    <section>
+      <h2>Exemplo de Posição Static</h2>
+      <div class="box static">Este bloco usa a posição padrão (static)</div>
+    </section>
+
+    <section>
+      <h2>Exemplo com Relative</h2>
+      <div class="box relative">Este bloco está deslocado usando top e left</div>
+    </section>
+
+    <section>
+      <h2>Tooltip com Absolute dentro de Relative</h2>
+      <div class="tooltip-container">
+        Passe o mouse aqui
+        <span class="tooltip">Dica: Você pode clicar!</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Cabeçalho Sticky em Área com Scroll</h2>
+      <div class="sticky-container">
+        <div class="box sticky">Filtros fixos ao rolar</div>
+        <p>Role para ver o efeito do sticky...</p>
+        <p style="height: 400px;">Conteúdo longo dentro da área rolável</p>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+</html>
